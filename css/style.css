@@ -1453,3 +1453,83 @@ div.sc_infobox_style_success {
 
 
 /******************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+blockquote {
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    font-size: 88%;
+    border-left: 5px solid #eee;
+    box-sizing: border-box;
+ 
+   
+    line-height: 1.42857143;
+    color: #333;
+
+
+
+}
+
+
+blockquote footer{
+    box-sizing: border-box;
+    display: block;
+    font-size: 80%;
+    line-height: 1.42857143;
+    color: #777;
+}
+blockquote .small:before, blockquote footer:before, blockquote small:before {
+    content: '\2014 \00A0';
+}
+
+.padding-left-0
+{
+    padding-left: 0 !important;
+}
+
+.padding-top-0
+{
+    padding-top: 0 !important;
+}
+
+
+
+.padding-bottom-10
+{
+    padding-bottom: 10px !important;
+}
+     
+
+
+
+.color-linkedin
+{
+   color:rgb(0, 116, 178);
+}
+.color-gplus {
+      color:rgb(220, 78, 65);
+}
+.color-twitter {
+      color:rgb(29, 161, 242);
+}
+.color-youtube {
+      color:rgb(230, 33, 23);
+}
+.color-instagram {
+      color:rgb(142, 96, 81);
+}
+.color-orange {
+      color:rgb(255, 143, 69);
+}
