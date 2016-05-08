@@ -141,6 +141,17 @@
    		padding: 35px 42px 42px;
    	}
    	#toTop {display: none !important;}
+
+.custom-social-links-img
+{
+   
+       margin: 40px;
+}
+.hackerrank:hover .custom-social-links-img{
+   
+    margin: 40px;
+  
+}
 }
 
 @media (max-width: 767px) {
@@ -209,6 +220,9 @@
 		float: left;
 		margin: 0 0 45px 0;
 	}
+        .custom-social-links-img {
+           margin-left: 86px !important;
+    }
 }
 
 @media (max-width: 479px) {
@@ -405,6 +419,10 @@
 	#resume .section-header h2 .icon.category2:after {
 		padding-top: 3px;
 	}
+    .custom-social-links-img {
+      margin-left: 52px !important;
+    margin-top: 30px !important;
+    }
 }
 
 /****************************************************/
