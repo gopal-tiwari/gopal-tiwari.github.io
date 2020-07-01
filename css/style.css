@@ -447,6 +447,10 @@ a img {
     background: rgb(0, 148, 228);
 }
 
+.social_links .stackoverflow {
+    background: rgb(244, 128, 36);
+}
+
 .social_links .hackerrank {
     background: rgb(41, 179, 94);
 }
@@ -1790,6 +1794,21 @@ blockquote {
 .custom-social-links-img {
     margin: 55px;
     width: 40px;
+}
+
+
+.stackoverflow .custom-social-links-img {
+    background: url('../images/StackOverflowWhite.png');
+    background-size: 39px;
+    background-repeat: no-repeat;
+    height: 40px;
+}
+
+.stackoverflow:hover .custom-social-links-img {
+    background: url('../images/StackOverflowGrey.png');
+    background-size: 39px;
+    margin: 55px;
+    background-repeat: no-repeat;
 }
 
 .hackerrank .custom-social-links-img {
